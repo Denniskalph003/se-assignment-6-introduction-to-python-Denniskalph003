@@ -21,7 +21,7 @@ Answer the following questions based on your understanding of Python programming
 print("Hello, World!")
     print: Python built-in function used to output text or variables to the console.
 "Hello, World!": String literal enclosed in double quotes, representing the text to be printed.
-#: Denotes a comment in Python, ignored by the interpreter, used for adding notes or explanations to the code.
+Denotes a comment in Python, ignored by the interpreter, used for adding notes or explanations to the code.
 4. Data Types and Variables:
    - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
      -Basic data types in Python:
@@ -43,7 +43,7 @@ list_var = [1, 2, 3, 'apple']
 tuple_var = (4, 5, 'banana')
 dictionary_var = {'name': 'Alice', 'age': 30}
 
-# Print out each variable
+Print out each variable
 print("Integer variable:", integer_var)
 print("Float variable:", float_var)
 print("String variable:", string_var)
@@ -61,8 +61,8 @@ Used to make decisions based on conditions.
 Syntax: `if condition:
 Code to execute if condition is true
 else:
-# Code to execute if condition is false`
-# Example of an if-else statement
+Code to execute if condition is false`
+Example of an if-else statement
 age = 20
 if age >= 18:
     print("You are an adult.")
@@ -73,7 +73,7 @@ Loops (for loop):
 Used to iterate over a sequence (like lists, tuples, strings, etc.).
 Syntax: `for element in sequence:
 Code to execute for each element
-# Example of a for loop
+Example of a for loop
 fruits = ['apple', 'banana', 'cherry']
 for fruit in fruits:
     print(fruit)
@@ -85,11 +85,11 @@ Functions in Python:Functions are blocks of reusable code that perform a specifi
                     Functions are defined using the def keyword followed by a function name and parameters.
                     They can optionally return a value using the return statement.
          Example of a function that returns the sum of two arguments:
-# Define a function that takes two arguments and returns their sum
+Define a function that takes two arguments and returns their sum
 def sum_two_numbers(a, b):
     return a + b
 
-# Example of calling the function
+Example of calling the function
 result = sum_two_numbers(3, 5)
 print("The sum is:", result)
 
@@ -108,43 +108,43 @@ Accessed by keys.
 Mutable (values can be changed, keys are immutable).
 Example: person = {'name': 'Alice', 'age': 30}
 
-# Create a list of numbers
+Create a list of numbers
 numbers = [1, 2, 3, 4, 5]
 
-# Create a dictionary of person's information
+Create a dictionary of person's information
 person = {'name': 'Alice', 'age': 30, 'city': 'New York'}
 
-# Print the list and dictionary
+Print the list and dictionary
 print("List of numbers:", numbers)
 print("Dictionary of person:", person)
 
-# Accessing elements in list
+Accessing elements in list
 print("First number in the list:", numbers[0])
 
-# Accessing elements in dictionary
+Accessing elements in dictionary
 print("Name of the person:", person['name'])
 
-# Modifying elements in list
+Modifying elements in list
 numbers[0] = 10
 print("Updated list of numbers:", numbers)
 
-# Modifying elements in dictionary
+Modifying elements in dictionary
 person['age'] = 31
 print("Updated dictionary of person:", person)
 
-# Adding elements to list
+Adding elements to list
 numbers.append(6)
 print("List after adding a number:", numbers)
 
-# Adding elements to dictionary
+Adding elements to dictionary
 person['gender'] = 'female'
 print("Dictionary after adding a key-value pair:", person)
 
-# Removing elements from list
+Removing elements from list
 numbers.remove(3)
 print("List after removing a number:", numbers)
 
-# Removing elements from dictionary
+Removing elements from dictionary
 del person['city']
 print("Dictionary after removing a key:", person)
 
@@ -160,7 +160,7 @@ Exception handling is a mechanism to handle runtime errors gracefully.
 It prevents the program from crashing when an error occurs.
 Errors are caught using try, except blocks.
 
-# Example of exception handling
+Example of exception handling
 try:
     num1 = int(input("Enter a number: "))
     num2 = int(input("Enter another number: "))
@@ -190,15 +190,15 @@ Importing and using a module in Python:
 Use import module_name to import a module.
 Access functions and variables using module_name.function() or module_name.variable.
 
-# Example of importing and using the math module
+Example of importing and using the math module
 import math
 
-# Calculate the square root of a number
+Calculate the square root of a number
 num = 25
 sqrt_value = math.sqrt(num)
 print("Square root of", num, "is:", sqrt_value)
 
-# Calculate the factorial of a number
+Calculate the factorial of a number
 factorial_value = math.factorial(5)
 print("Factorial of 5 is:", factorial_value)
 
@@ -211,7 +211,7 @@ Use open() function with mode 'r' to open a file for reading.
 Use methods like read(), readline(), or readlines() to read content.
 Always close the file with close() or use it within a with statement.
 
-# Example of reading from a file and printing its content
+Example of reading from a file and printing its content
 filename = 'sample.txt'
 
 with open(filename, 'r') as file:
@@ -221,7 +221,7 @@ print("Content of", filename, ":")
 print(content)
 
 
-# Example of writing a list of strings to a file
+Example of writing a list of strings to a file
 filename = 'output.txt'
 lines = ['Line 1\n', 'Line 2\n', 'Line 3\n']
 
